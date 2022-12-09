@@ -64,7 +64,7 @@ jobs:
           branch: master
           repository: stakater-charts
           target_dir: docs
-          token: ${{ secrets.STAKATER_GITHUB_HELM_REGISTRY }}
+          token: ${{ secrets.STAKATER_GITHUB_TOKEN }}
           charts_dir: "."
           charts_url: ${{ env.STAKATER_HELM_REGISTRY_URL }}
           owner: stakater
