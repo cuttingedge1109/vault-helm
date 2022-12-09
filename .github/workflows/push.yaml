@@ -46,7 +46,7 @@ jobs:
       # Update chart tag to the latest semver tag
       - name: Update Chart Version
         env:
-          VERSION: ${{ steps.generate_operator_tag.outputs.new_tag }}
+          VERSION: ${{ steps.generate_tag.outputs.new_tag }}
         run: make bump-chart
 
 
