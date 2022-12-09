@@ -15,6 +15,7 @@ keywords:
  - automation
  - infrastructure
 
+
 sources:
   - https://github.com/hashicorp/vault
   - https://github.com/hashicorp/vault-helm
