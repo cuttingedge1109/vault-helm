@@ -10,7 +10,6 @@ on:
       - '.github/'
 env:
   CHART_NAME: "vault"
-  KUBERNETES_VERSION: "1.18.0"
   KIND_VERSION: "0.7.0"
   STAKATER_HELM_REGISTRY_URL: "https://stakater.github.io/stakater-charts"
 
