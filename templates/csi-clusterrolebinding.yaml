@@ -16,3 +16,4 @@ subjects:
   name: {{ template "vault.fullname" . }}-csi-provider
   namespace: {{ .Values.namespace | default .Release.Namespace }}
 {{- end }}
+
