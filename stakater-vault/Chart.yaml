@@ -21,4 +21,4 @@ sources:
   - https://github.com/hashicorp/vault-k8s
   - https://github.com/hashicorp/vault-csi-provider
 
-descripition: stakater chart for vault , forked from hashicorp/vault-helm
+description: stakater chart for vault , forked from hashicorp/vault-helm
