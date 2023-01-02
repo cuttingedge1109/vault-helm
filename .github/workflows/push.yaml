@@ -84,7 +84,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.STAKATER_GITHUB_TOKEN }}
-          branch: main
+          branch: master
           force: true
 
       - name: Push Latest Tag
@@ -92,5 +92,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.STAKATER_GITHUB_TOKEN }}
           WITH_V: true
-          RELEASE_BRANCHES: main
+          RELEASE_BRANCHES: master
           DEFAULT_BUMP: patch
